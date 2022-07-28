@@ -15,11 +15,11 @@
 
 
     <!-- Navigation Menu -->
-    <nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-spy="affix" data-offset-top="20" style="margin-right: 500px;">
+    <nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-spy="affix" data-offset-top="20"">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent"">
-                <ul class="navbar-nav ml-auto" style="background-color:white; height: 80px; width: 900px">
-                    <img src="https://raw.githubusercontent.com/AaravSharma11/CiscoRepo/main/cisco-emblem.jpg" alt="Italian Trulli" style= "height: 80px;">
+                <img src="https://raw.githubusercontent.com/AaravSharma11/CiscoRepo/main/cisco-emblem.jpg" alt="Italian Trulli" style= "height: 80px;">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#home" style= "font-family: Lucida Grande; padding-right: 70px; font-size:large">Home</a>
                     </li>
@@ -281,6 +281,7 @@
 
 
     <!-- References Page -->
+    <!-- References Page -->
     <section class="section" id="references">
         <div>
             <h3 class="section-title pb-4" style="text-align: center; font-family: Lucida Grande; font-size:300%; padding-top:50px;">References</h3>  
@@ -295,20 +296,28 @@
                 </li>
                 <li>
                     <a href="https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv
-                    " style="color:black"">Datasets from kaggle for stress detection in sleep</a>
+                    " style="color:tomato"">Dataset From Kaggle For Stress Detection In Sleep</a>
                 </li>
                 <li>
                     <a href="https://figshare.com/articles/dataset/_Gender_Age_IQ_words_number_of_VFT_DSRS_score_and_GAF_score_of_10_children_with_major_depressive_disorder_/911033
-                    " style="color:black"> GAF score dataset </a>
+                    " style="color:tomato"> GAF Score Dataset </a>
                 </li>
                 <li>
                     Mcgurk, Jennifer. “Favorite Tips for Eating Disorder Recovery.” Eat With Knowledge, 12 May 2021, https://eatwithknowledge.com/favorite-tips-eating-disorder-recovery/ 
 
                 </li>
+                <li>
+                    <a href="https://www.kaggle.com/code/diegocalvo/data-mining-of-mental-health/data
+                    " style="color:tomato"> Age vs Common Treatment For Mental Health Dataset </a>
+                </li>
+                <li>
+                    http://archive.ics.uci.edu/ml/datasets/mhealth+dataset
+                </li>
                 
             </ul>
         </div>
     </section>
+
 
     <!-- Below 2 lines imports the Chart.js plugins -->
    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -437,7 +446,7 @@
             options: {
              title: {
              display: true,
-            text: 'Predicted world population (millions) in 2050'
+            text: 'Amount Of People Diagnosed For Depression Around The World'
         }
          }
 });
@@ -474,7 +483,11 @@
                     y: {
                         beginAtZero: true
                     }
-                }
+                },
+                title: {
+                display: true,
+                text: 'How Many People In Certain States Have Sought Treatment For Their Depression From Poor Eating Habits'
+                },
             }
         });
         </script>
